@@ -117,7 +117,7 @@ footer{
     opacity: 80%;
 }
 
-/*  ENTRENAMIENTOS INDEX*/
+/*  BLOG INDEX*/
 .section-entrenamientos{
     width: 95%;
     margin: auto;
@@ -144,7 +144,7 @@ footer{
     margin-top: 30px;
     font-size: 20px;
     height: 350px;
-    background-image: url('../assets/img/background.png');
+    background-image: url('../assets/yoga-g0bd6d2e29_1920.jpg');
     background-size: 90%;
     background-attachment: fixed;
     border-radius: 20px;
@@ -214,10 +214,10 @@ label{
 #telefono{grid-area: telefono;}
 .label-mensaje{ grid-area: label-mensaje;}
 
-/* REGLAMENTO */
+/* TERAPIAS */
 
 
-/* SECCION REGLAMENTOS */
+/* SECCION TERAPIAS */
 
 .article-reglamento{
     padding-top: 90px;
@@ -237,7 +237,7 @@ label{
     margin-bottom: 50px;
 }
 
-/* SOBRE NOSOTROS */
+/* SOBRE MI */
 
 .main-sobre-nosotros{
     display: flex;
@@ -252,7 +252,7 @@ label{
     text-align: justify;
 }
 
-/*  NOTAS SOBRE NOSOTROS */
+/*  NOTAS SOBRE MI */
 
 .h2-notas{
     margin-top: 50px;
