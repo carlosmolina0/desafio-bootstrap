@@ -200,7 +200,7 @@ label{
 #enviar{
     grid-area: enviar;
     background-color: #ff2e5f;
-    width: 80px;
+    width: 150px;
     height: 40px;
     border: none;
     border-radius: 20px;
