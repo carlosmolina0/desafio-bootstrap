@@ -1,0 +1,345 @@
+/* PARA TODAS LAS PÁGINAS */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: justify center;
+}
+
+body{
+    Background: linear-gradient(0deg,#18111f, #140d1a)
+}
+/* NAVEGADOR TODAS LAS PAGINAS*/
+
+.nav-css{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #140d1a;
+    box-shadow: 0px 0px 24px 1px #140d1a;
+    z-index: 1000;
+}
+/* DROPDOWN */
+.bg-button-dark{
+    background-color: #140d1a;
+    box-shadow: 0px 0px 24px 1px #140d1a;
+}
+.bg-button-yellow{
+    background-color: #ffd452;
+    box-shadow: 0px 0px 24px 1px #140d1a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.pages, .perfil-iniciar, .perfil-registrarse {
+    padding: 12px;
+    color: white;
+} 
+
+.perfil-registrarse:link, .pages:link{color: white;}
+.perfil-registrarse:hover, .pages:visited{color: white;}
+.perfil-registrarse:hover, .pages:hover{color: #ff2e5f;}
+.perfil-registrarse:active, .pages:active{color: #42142a;}
+
+#color-amarillo:link{color:#ffd452}
+#color-amarillo:visited{color:#ffd452}
+#color-amarillo:hover{color:#ff2e5f}
+#color-amarillo:active{color:#42142a}
+
+.perfil-iniciar{
+    background-color: #ff2e5f;
+    border-radius: 20px;
+}
+.perfil-iniciar:hover{
+    background-color: #ffd452;
+    color: white;
+}
+
+/* TITULOS TODAS LAS PAGINAS */
+
+.titulo-contacto, .titulo-sobre-nosotros, .titulo-proximos-torneos, .titulo-reglamento {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    padding-top: 150px;
+    color: #ffd452;
+    text-align: center;
+}
+
+/* FOOTER PARA TODAS LAS PÁGINAS, */
+footer{
+    width: 100%;
+    margin-top: 100px;
+}
+.h4-footer{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.img-redes{
+    width: 30px;
+    padding: 5px;
+}
+.a-redes{
+    color: white;
+}
+.img-footer{
+    width: 150px;
+}
+
+
+/* INDEX */
+
+/* TITULO Y VIDEO */
+.main-index{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-index{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 180px;
+    margin-top: 250px;
+    color: #ffd452;
+}
+
+.video-index{
+    margin: 50px auto;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 80%;
+}
+
+/*  ENTRENAMIENTOS INDEX*/
+.section-entrenamientos{
+    width: 95%;
+    margin: auto;
+}
+
+.h3-dia-horario, .h3-donde, .h3-que-llevar{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.h2-entrenamientos{
+    grid-area: h2-entrenamientos;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #ffd452;
+}
+
+.iframe-mapa{
+    width: 100%;
+}
+
+.info-dia-horario, .info-que-llevar, .iframe-mapa{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 350px;
+    background-image: url('../assets/img/background.png');
+    background-size: 90%;
+    background-attachment: fixed;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-dia-horario, .p-dia-horario, .p-que-llevar{
+    margin: 0 auto;
+    width: 80%;
+} 
+
+
+/* CONTACTO */
+
+.formulario-contacto-fieldset{
+    width: 60%;
+    margin: 40px auto 100px;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    grid-template-areas: 
+    "label-nombre label-nombre"
+    "nombre nombre"
+    "label-email label-email"
+    "email email"
+    "label-telefono label-telefono"
+    "telefono telefono"
+    "label-mensaje label-mensaje"
+    "mensaje mensaje"
+    "none enviar";
+    gap: 10px;
+}
+
+#nombre, #email, #telefono, #mensaje{
+    background-color: #42142a;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+}
+
+#mensaje{
+    grid-area: mensaje;
+    height: 150px;
+}
+
+label{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#enviar{
+    grid-area: enviar;
+    background-color: #ff2e5f;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+.label-nombre{grid-area: label-nombre;}
+#nombre{grid-area: nombre;}
+.label-email{grid-area: label-email;}
+#email{grid-area: email;}
+.label-telefono{grid-area: label-telefono;}
+#telefono{grid-area: telefono;}
+.label-mensaje{ grid-area: label-mensaje;}
+
+/* REGLAMENTO */
+
+
+/* SECCION REGLAMENTOS */
+
+.article-reglamento{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.titulo-reglamento-idioma{
+    font-size: 50px;
+    color: #ff2e5f;
+    /* margin-top: 40px; */
+}
+.parrafo-reglamento{
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+/* SOBRE NOSOTROS */
+
+.main-sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.parrafo-sobre-nosotros{
+    margin-top: 20px;
+    width: 90%;
+    text-align: justify;
+}
+
+/*  NOTAS SOBRE NOSOTROS */
+
+.h2-notas{
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffd452;
+    font-size: 30px;
+}
+.h3-notas{
+    margin: 20px auto;
+    width: 90%;
+    font-size: 15px;
+}
+.nota-1, .nota-2, .nota-3{
+    background-color: #18111f;
+    border-radius: 20px;
+}
+.nota-1:hover, .nota-2:hover, .nota-3:hover{
+    background-color: #ffffff0d;
+}
+.img-nota{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p-web-nota{
+    padding-bottom: 20px;
+}
+
+/* PROXIMOS TORNEOS */
+.section-infernal, .section-entrevero{
+    width: 95%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #42142a1a;
+}
+.flyer-infernal, .flyer-entrevero{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.h2-proximo-torneo-ent, .h2-proximo-torneo-inf{
+    margin: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ff2e5f;
+    font-size: 50px;
+}
+
+.parrafo-infernal, .parrafo-entrevero{
+    text-align: justify;
+}
+
+.h3-proximos-torneos{
+    margin-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.boton-participar{
+    color: white;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.boton-participar:hover{
+    background-color: #ffd452;
+    color: white;
+}
+
+
+
+/* vista mobile */
+
+@media screen and (max-width: 567px){
+
+    .titulo-index{
+        font-size: 50px;
+    }
+    .h2-entrenamientos{
+        width: auto;
+        font-size: 50px;
+    }
+
+
+
+/*  PALETA DE COLORES
+color1 { #140d1a };
+color2 { #42142a };
+color3 { #ff2e5f };
+color4 { #ffd452 };
+color5 { #faeeca }; */

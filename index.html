@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Salud Natural</title>
+</head>
+
+<body>    
+    <header>
+        <nav class="container-fluid">
+            <div class="navbar navbar-expand-lg nav-css">
+                <a class="navbar-brand mx-2" href="./index.html">
+                    <img src="./assets/Salud Natural V3.png" alt="" width="100">
+                </a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mx-3"> <img src="./assets/menu.svg" width="40px" alt="menu"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-button-dark" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item ">
+                                    <a class="nav-link pages mx-2 text-center" href="./pages/sobre-mi.html">Sobre Mi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pages mx-2 text-center" href="./pages/blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle pages mx-2 text-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Terapias</a>
+                                        <ul class="dropdown-menu bg-button-yellow mx-2" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item text-center" href="./pages/terapias.html">Recuperación</a></li>
+                                            <li><a class="dropdown-item text-center" href="./pages/terapias.html">Equilibrio</a></li>
+                                            <li><a class="dropdown-item text-center" href="./pages/terapias.html">Salud Natural</a></li>
+                                        </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pages mx-2 text-center" href="./pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="">
+                            <ul class="navbar-nav me-5 mb-2 mb-lg-0 mx-5">
+                                <li class="nav-item">
+                                    <a class="nav-link perfil-iniciar text-center mx-2" href="#">Pedir Cita</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link perfil-registrarse text-center mx-2" href="#">Registrarse</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-index">
+        <h1 data-aos="fade-down" class="titulo-index">Salud Natural</h1>
+        <video class="video-index" autoplay loop src="./assets/videos/video-index.mov"></video>
+    </main>
+
+
+<!-- TERAPIAS -->
+    <section class="section-entrenamientos container">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 text-center">
+                <h2 class="h2-entrenamientos" >Terapias</h2>
+            </div>
+            <!-- DONDE ESTAMOS -->
+            <div class="col-sm-12 col-md-4 text-center">
+                <h3 class="h3-donde">¿Dónde estamos?</h3>
+                <p class="p-donde">Soto del Real</p>
+            </div>
+            <div class="col-sm-12 col-md-8 ">
+                <iframe class="iframe-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479.0752552872765!2d-3.7856441236350213!3d40.747196769613076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x809925cc0dfec5c5!2sClub%20Tenis%20y%20Padel%20Soto%20del%20Real!5e0!3m2!1ses!2ses!4v1651094926175!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <!-- QUE DIAS Y HORARIOS -->
+            <div class="col-sm-12 order-sm-2 order-md-1 col-md-8  info-dia-horario">
+                <ul class="ul-index text-center">
+                    <li class="li-dia-horario">Martes y Jueves de 17 a 20hs</li>
+                    <li class="li-dia-horario">Sábados de 10 a 14hs</li>
+                </ul>
+                <p class="p-dia-horario text-center"> No se suspende por lluvia</p>
+            </div>
+            <div class="col-sm-12 order-sm-1 col-md-4">
+                <h3 class="h3-dia-horario text-center">¿Qué días y horarios?</h3>
+            </div>
+            <!-- QUE LLEVAR -->
+            <div class="col-sm-12 order-sm-3 col-md-4">
+                <h3 class="h3-que-llevar text-center">¿Qué debo llevar?</h3>
+            </div>
+            <div class="col-sm-12 order-sm-4 col-md-8 info-que-llevar text-center">
+                <p class="p-que-llevar">Te recomendamos llevar <b> Casco,protecciones, taco y tu bici</b>. Si no tenéselementos para jugar no te preocupes, contamos con bicis, tacos y protecciones comunitarias para que las usen quienes quieran probar el deporte.</p></p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid" >
+        <div class="row">
+            <ul class="col-xs-12 col-sm-6 col-md-9 ms-3">
+                <h4 class=" h4-footer ">Contactanos</h4>
+                <li>
+                    <a class=" a-redes text-decoration-none pages" href=wttps://facebook title="facebook">
+                        <img class="img-redes" src="./assets/facebook-blanco.svg" alt="logo-facebook">
+                    Facebook - Salud Natural</a>
+                </li>
+                <li>
+                    <a class=" a-redes text-decoration-none pages" href=wttps://instagram title="Instagram">
+                        <img class="img-redes" src="./assets/instagram-blanco.svg" alt="logo-instagram">
+                    Instagram - @saludnatural </a>
+                </li>
+                <li>
+                    <a class=" a-redes text-decoration-none pages" href=wttps://youtube title="youtube">
+                        <img class="img-redes" src="./assets/youtube-blanco.svg" alt="logo-youtube">
+                    Youtube - Salud Natural </a>
+                </li>
+                <li>
+                    <a class=" a-redes text-decoration-none pages" href="mailto:saludnatural@gmail.com" target="_blank">
+                        <img class="img-redes" src="./assets/mail-blanco.svg" alt="logo-youtube">
+                    E-mail - saludnatural@gmail.com </a>
+                </li>
+            </ul>
+            <img class="col-xs-12 col-sm-6 col-md-3 img-footer my-auto mx-auto" src="./assets/Salud Natural V3.png" alt="logo-salud-natural">
+        </div>
+    </footer>
+
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>
