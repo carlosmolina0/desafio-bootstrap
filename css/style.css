@@ -46,10 +46,10 @@ body{
 .perfil-registrarse:hover, .pages:hover{color: #3fef13;}
 .perfil-registrarse:active, .pages:active{color: #42142a;}
 
-#color-amarillo:link{color:#ffd452}
-#color-amarillo:visited{color:#ffd452}
-#color-amarillo:hover{color:#ff2e5f}
-#color-amarillo:active{color:#42142a}
+#color-verde:link{color:#3fef13}
+#color-verde:visited{color:#3fef13}
+#color-verde:hover{color:#f96036}
+#color-verde:active{color:#42142a}
 
 .perfil-iniciar{
     background-color: #ff2e5f;
@@ -62,7 +62,7 @@ body{
 
 /* TITULOS TODAS LAS PAGINAS */
 
-.titulo-contacto, .titulo-sobre-nosotros, .titulo-proximos-torneos, .titulo-reglamento {
+.titulo-contacto, .titulo-sobre-nosotros, .titulo-blog, .titulo-reglamento {
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     padding-top: 150px;
@@ -117,7 +117,7 @@ footer{
     opacity: 80%;
 }
 
-/*  BLOG INDEX*/
+/*  TERAPIAS HOME*/
 .section-terapias{
     width: 95%;
     margin: auto;
@@ -281,36 +281,36 @@ label{
     padding-bottom: 20px;
 }
 
-/* PROXIMOS TORNEOS */
-.section-infernal, .section-entrevero{
+/* BLOG */
+.section-articulo-1{
     width: 95%;
     margin: 100px auto;
     padding: 20px;
     background-color: #42142a1a;
 }
-.flyer-infernal, .flyer-entrevero{
+.imagen-blog{
     border-radius: 20px;
     width: 100%;
 }
 
-.h2-proximo-torneo-ent, .h2-proximo-torneo-inf{
+.h2-proximo-torneo-ent, .h2-titulo-post-blog{
     margin: 50px;
     font-family: 'Bebas Neue', cursive;
     color: #ff2e5f;
     font-size: 50px;
 }
 
-.parrafo-infernal, .parrafo-entrevero{
+.parrafo-blog{
     text-align: justify;
 }
 
-.h3-proximos-torneos{
+.h3-pide-cita{
     margin-top: 40px;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
 }
 
-.boton-participar{
+.boton-reservar{
     color: white;
     width: 140px;
     border-radius: 20px;
