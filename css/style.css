@@ -243,6 +243,137 @@ footer {
 }
 
 
+/* SOBRE MI */
+
+.main-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.parrafo-sobre-nosotros {
+    margin-top: 20px;
+    width: 90%;
+    text-align: justify;
+}
+
+/*  METODO SALUD NATURAL - SOBRE MI */
+
+.h2-metodo {
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffd452;
+    font-size: 30px;
+}
+
+.h3-metodo {
+    margin: 20px auto;
+    width: 90%;
+    font-size: 15px;
+}
+
+.metodo-1,
+.metodo-2,
+.metodo-3 {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.metodo-1:hover,
+.metodo-2:hover,
+.metodo-3:hover {
+    background-color: #a3e636;
+}
+
+.img-metodo {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p-web-metodo {
+    padding-bottom: 20px;
+}
+
+/* BLOG */
+.section-articulo-1 {
+    width: 95%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #42142a1a;
+    border-radius: 20px;
+}
+
+.imagen-blog {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.h2-titulo-post-blog {
+    margin: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ff2e5f;
+    font-size: 50px;
+}
+
+.parrafo-blog {
+    text-align: justify;
+}
+
+.h3-pide-cita {
+    margin-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #a3e636;
+}
+
+
+.h3-pide-cita:hover{
+    transform: scale(1.3);
+}
+
+.boton-reservar {
+    color: white;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.boton-reservar:hover {
+    background-color: #a3e636;
+    color: white;
+}
+
+
+/* TERAPIAS */
+
+/* SECCION TERAPIAS */
+
+.article-terapias {
+    padding-top: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #140d1a4f;
+    border-radius: 20px;
+}
+
+.titulo-terapias-descripcion {
+    font-size: 50px;
+    color: #ff2e5f;
+    /* margin-top: 40px; */
+}
+
+.parrafo-terapias {
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+
+
+
 /* CONTACTO */
 
 .formulario-contacto-fieldset {
@@ -321,124 +452,6 @@ label {
     grid-area: label-mensaje;
 }
 
-/* TERAPIAS */
-
-
-/* SECCION TERAPIAS */
-
-.article-terapias {
-    padding-top: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.titulo-terapias-descripcion {
-    font-size: 50px;
-    color: #ff2e5f;
-    /* margin-top: 40px; */
-}
-
-.parrafo-terapias {
-    width: 90%;
-    text-align: justify;
-    margin-bottom: 50px;
-}
-
-/* SOBRE MI */
-
-.main-sobre-nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.parrafo-sobre-nosotros {
-    margin-top: 20px;
-    width: 90%;
-    text-align: justify;
-}
-
-/*  METODO SALUD NATURAL - SOBRE MI */
-
-.h2-metodo {
-    margin-top: 50px;
-    font-family: 'Bebas Neue', cursive;
-    color: #ffd452;
-    font-size: 30px;
-}
-
-.h3-metodo {
-    margin: 20px auto;
-    width: 90%;
-    font-size: 15px;
-}
-
-.metodo-1,
-.metodo-2,
-.metodo-3 {
-    background-color: transparent;
-    border-radius: 20px;
-}
-
-.metodo-1:hover,
-.metodo-2:hover,
-.metodo-3:hover {
-    background-color: #a3e636;
-}
-
-.img-metodo {
-    width: 100%;
-    border-radius: 20px;
-}
-
-.p-web-metodo {
-    padding-bottom: 20px;
-}
-
-/* BLOG */
-.section-articulo-1 {
-    width: 95%;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #42142a1a;
-}
-
-.imagen-blog {
-    border-radius: 20px;
-    width: 100%;
-}
-
-.h2-proximo-torneo-ent,
-.h2-titulo-post-blog {
-    margin: 50px;
-    font-family: 'Bebas Neue', cursive;
-    color: #ff2e5f;
-    font-size: 50px;
-}
-
-.parrafo-blog {
-    text-align: justify;
-}
-
-.h3-pide-cita {
-    margin-top: 40px;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-}
-
-.boton-reservar {
-    color: white;
-    width: 140px;
-    border-radius: 20px;
-}
-
-.boton-participar:hover {
-    background-color: #ffd452;
-    color: white;
-}
 
 
 
