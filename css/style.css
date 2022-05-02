@@ -13,10 +13,14 @@
 }
 
 body {
-    Background: linear-gradient(0deg, #18111f, #140d1a)
+    Background: linear-gradient(180deg, rgba(74,204,241,1) 0%, rgba(108,212,242,1) 100%)
 }
 
 /* NAVEGADOR TODAS LAS PAGINAS*/
+
+.encabezado{
+    padding-left: 0px;
+}
 
 .nav-css {
     position: fixed;
@@ -34,7 +38,7 @@ body {
 }
 
 .bg-button-verde {
-    background-color: #3fef13;
+    background-color: #a3e636;
     box-shadow: 0px 0px 24px 1px #140d1a;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -59,7 +63,7 @@ body {
 
 .perfil-registrarse:hover,
 .pages:hover {
-    color: #3fef13;
+    color: #a3e636;
 }
 
 .perfil-registrarse:active,
@@ -68,11 +72,11 @@ body {
 }
 
 #color-verde:link {
-    color: #3fef13
+    color: #a3e636
 }
 
 #color-verde:visited {
-    color: #3fef13
+    color: #a3e636
 }
 
 #color-verde:hover {
@@ -102,7 +106,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     padding-top: 150px;
-    color: #3fef13;
+    color: #a3e636;
     text-align: center;
 }
 
@@ -110,6 +114,10 @@ body {
 footer {
     width: 100%;
     margin-top: 100px;
+}
+
+.footer-fondo{
+    background-color: #140d1a;
 }
 
 .h4-footer {
@@ -127,7 +135,7 @@ footer {
 }
 
 .img-footer {
-    width: 150px;
+    width: 250px;
 }
 
 
@@ -146,7 +154,7 @@ footer {
     font-family: 'Bebas Neue', cursive;
     font-size: 180px;
     margin-top: 150px;
-    color: #3fef13;
+    color: #a3e636;
 }
 
 .foto-index {
@@ -219,9 +227,9 @@ footer {
     font-size: 20px;
     height: 350px;
     background-image: url('../assets/yoga-g0bd6d2e29_1920.jpg');
-    background-size: 90%;
+    background-size: 100%;
     background-attachment: fixed;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,14 +379,14 @@ label {
 .metodo-1,
 .metodo-2,
 .metodo-3 {
-    background-color: #18111f;
+    background-color: transparent;
     border-radius: 20px;
 }
 
 .metodo-1:hover,
 .metodo-2:hover,
 .metodo-3:hover {
-    background-color: #ffffff0d;
+    background-color: #a3e636;
 }
 
 .img-metodo {
