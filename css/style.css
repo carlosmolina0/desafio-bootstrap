@@ -29,8 +29,8 @@ body{
     background-color: #140d1a;
     box-shadow: 0px 0px 24px 1px #140d1a;
 }
-.bg-button-yellow{
-    background-color: #ffd452;
+.bg-button-verde{
+    background-color: #3fef13;
     box-shadow: 0px 0px 24px 1px #140d1a;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -43,7 +43,7 @@ body{
 
 .perfil-registrarse:link, .pages:link{color: white;}
 .perfil-registrarse:hover, .pages:visited{color: white;}
-.perfil-registrarse:hover, .pages:hover{color: #ff2e5f;}
+.perfil-registrarse:hover, .pages:hover{color: #3fef13;}
 .perfil-registrarse:active, .pages:active{color: #42142a;}
 
 #color-amarillo:link{color:#ffd452}
@@ -66,7 +66,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     padding-top: 150px;
-    color: #ffd452;
+    color: #3fef13;
     text-align: center;
 }
 
@@ -93,7 +93,7 @@ footer{
 
 /* INDEX */
 
-/* TITULO Y VIDEO */
+/* TITULO Y FOTO HOME */
 .main-index{
     width: 95%;
     margin: auto;
@@ -106,10 +106,10 @@ footer{
     font-family: 'Bebas Neue', cursive;
     font-size: 180px;
     margin-top: 250px;
-    color: #ffd452;
+    color: #3fef13;
 }
 
-.video-index{
+.foto-index{
     margin: 50px auto;
     width: 100%;
     border-top-left-radius: 20px;
@@ -118,7 +118,7 @@ footer{
 }
 
 /*  BLOG INDEX*/
-.section-entrenamientos{
+.section-terapias{
     width: 95%;
     margin: auto;
 }
@@ -129,7 +129,7 @@ footer{
     margin-top: 30px;
 }
 
-.h2-entrenamientos{
+.h2-terapias{
     grid-area: h2-entrenamientos;
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
@@ -140,7 +140,7 @@ footer{
     width: 100%;
 }
 
-.info-dia-horario, .info-que-llevar, .iframe-mapa{
+.info-dia-horario, .info-que-es, .iframe-mapa{
     margin-top: 30px;
     font-size: 20px;
     height: 350px;
@@ -153,7 +153,7 @@ footer{
     justify-content: center;
 }
 
-.li-dia-horario, .p-dia-horario, .p-que-llevar{
+.li-dia-horario, .p-dia-horario, .p-que-somos{
     margin: 0 auto;
     width: 80%;
 } 
