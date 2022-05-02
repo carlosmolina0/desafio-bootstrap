@@ -1,7 +1,8 @@
 /* PARA TODAS LAS PÁGINAS */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap');
-*{
+
+* {
     padding: 0px;
     margin: 0px;
     color: white;
@@ -11,12 +12,13 @@
     text-align: justify center;
 }
 
-body{
-    Background: linear-gradient(0deg,#18111f, #140d1a)
+body {
+    Background: linear-gradient(0deg, #18111f, #140d1a)
 }
+
 /* NAVEGADOR TODAS LAS PAGINAS*/
 
-.nav-css{
+.nav-css {
     position: fixed;
     width: 100%;
     height: 100px;
@@ -24,45 +26,79 @@ body{
     box-shadow: 0px 0px 24px 1px #140d1a;
     z-index: 1000;
 }
+
 /* DROPDOWN */
-.bg-button-dark{
+.bg-button-dark {
     background-color: #140d1a;
     box-shadow: 0px 0px 24px 1px #140d1a;
 }
-.bg-button-verde{
+
+.bg-button-verde {
     background-color: #3fef13;
     box-shadow: 0px 0px 24px 1px #140d1a;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.pages, .perfil-iniciar, .perfil-registrarse {
+.pages,
+.perfil-iniciar,
+.perfil-registrarse {
     padding: 12px;
     color: white;
-} 
+}
 
-.perfil-registrarse:link, .pages:link{color: white;}
-.perfil-registrarse:hover, .pages:visited{color: white;}
-.perfil-registrarse:hover, .pages:hover{color: #3fef13;}
-.perfil-registrarse:active, .pages:active{color: #42142a;}
+.perfil-registrarse:link,
+.pages:link {
+    color: white;
+}
 
-#color-verde:link{color:#3fef13}
-#color-verde:visited{color:#3fef13}
-#color-verde:hover{color:#f96036}
-#color-verde:active{color:#42142a}
+.perfil-registrarse:hover,
+.pages:visited {
+    color: white;
+}
 
-.perfil-iniciar{
+.perfil-registrarse:hover,
+.pages:hover {
+    color: #3fef13;
+}
+
+.perfil-registrarse:active,
+.pages:active {
+    color: #42142a;
+}
+
+#color-verde:link {
+    color: #3fef13
+}
+
+#color-verde:visited {
+    color: #3fef13
+}
+
+#color-verde:hover {
+    color: #f96036
+}
+
+#color-verde:active {
+    color: #42142a
+}
+
+.perfil-iniciar {
     background-color: #ff2e5f;
     border-radius: 20px;
 }
-.perfil-iniciar:hover{
+
+.perfil-iniciar:hover {
     background-color: #ffd452;
     color: white;
 }
 
 /* TITULOS TODAS LAS PAGINAS */
 
-.titulo-contacto, .titulo-sobre-nosotros, .titulo-blog, .titulo-terapias {
+.titulo-contacto,
+.titulo-sobre-nosotros,
+.titulo-blog,
+.titulo-terapias {
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     padding-top: 150px;
@@ -71,22 +107,26 @@ body{
 }
 
 /* FOOTER PARA TODAS LAS PÁGINAS, */
-footer{
+footer {
     width: 100%;
     margin-top: 100px;
 }
-.h4-footer{
+
+.h4-footer {
     margin-top: 20px;
     font-size: 20px;
 }
-.img-redes{
+
+.img-redes {
     width: 30px;
     padding: 5px;
 }
-.a-redes{
+
+.a-redes {
     color: white;
 }
-.img-footer{
+
+.img-footer {
     width: 150px;
 }
 
@@ -94,7 +134,7 @@ footer{
 /* INDEX */
 
 /* TITULO Y FOTO HOME */
-.main-index{
+.main-index {
     width: 95%;
     margin: auto;
     display: flex;
@@ -102,45 +142,78 @@ footer{
     align-items: center;
 }
 
-.titulo-index{
+.titulo-index {
     font-family: 'Bebas Neue', cursive;
     font-size: 180px;
     margin-top: 250px;
     color: #3fef13;
 }
 
-.foto-index{
+.foto-index {
     margin: 50px auto;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    opacity: 80%;
-}
+    height: 500px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    animation: foto-index 15s infinite;
+
+    }
+
+    @keyframes foto-index {
+
+        0%, 30% {
+            background-image: url(../assets/matcha-powder-g9162734ab_1920.jpg);
+            opacity: 1;
+        }
+
+        31%, 34% {
+            opacity: 0.1;
+        }
+
+        35%, 65% {
+            background-image: url(../assets/massage-gf00a03ff0_1920.jpg);
+            opacity: 1;
+        }
+
+        66%, 69% {
+            opacity: 0.1;
+        }
+
+        70%, 100% {
+            background-image: url(../assets/skincare-g3c5b072e6_1920.jpg);
+            opacity: 1;
+        }
+    }
+
 
 /*  TERAPIAS HOME*/
-.section-terapias{
+.section-terapias {
     width: 95%;
     margin: auto;
 }
 
-.h3-dia-horario, .h3-donde, .h3-que-llevar{
+.h3-dia-horario,
+.h3-donde,
+.h3-que-llevar {
     font-family: 'Bebas Neue', cursive;
     font-size: 45px;
     margin-top: 30px;
 }
 
-.h2-terapias{
+.h2-terapias {
     grid-area: h2-entrenamientos;
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     color: #ffd452;
 }
 
-.iframe-mapa{
+.iframe-mapa {
     width: 100%;
 }
 
-.info-dia-horario, .info-que-es, .iframe-mapa{
+.info-dia-horario,
+.info-que-es,
+.iframe-mapa {
     margin-top: 30px;
     font-size: 20px;
     height: 350px;
@@ -153,51 +226,56 @@ footer{
     justify-content: center;
 }
 
-.li-dia-horario, .p-dia-horario, .p-que-somos{
+.li-dia-horario,
+.p-dia-horario,
+.p-que-somos {
     margin: 0 auto;
     width: 80%;
-} 
+}
 
 
 /* CONTACTO */
 
-.formulario-contacto-fieldset{
+.formulario-contacto-fieldset {
     width: 60%;
     margin: 40px auto 100px;
     border: none;
     display: grid;
     grid-template-columns: 1fr 80px;
-    grid-template-areas: 
-    "label-nombre label-nombre"
-    "nombre nombre"
-    "label-email label-email"
-    "email email"
-    "label-telefono label-telefono"
-    "telefono telefono"
-    "label-mensaje label-mensaje"
-    "mensaje mensaje"
-    "none enviar";
+    grid-template-areas:
+        "label-nombre label-nombre"
+        "nombre nombre"
+        "label-email label-email"
+        "email email"
+        "label-telefono label-telefono"
+        "telefono telefono"
+        "label-mensaje label-mensaje"
+        "mensaje mensaje"
+        "none enviar";
     gap: 10px;
 }
 
-#nombre, #email, #telefono, #mensaje{
+#nombre,
+#email,
+#telefono,
+#mensaje {
     background-color: #ffffff;
     border-radius: 20px;
     border: none;
     height: 40px;
 }
 
-#mensaje{
+#mensaje {
     grid-area: mensaje;
     height: 150px;
 }
 
-label{
+label {
     text-align: left;
     padding-left: 10px;
 }
 
-#enviar{
+#enviar {
     grid-area: enviar;
     background-color: #ff2e5f;
     width: 150px;
@@ -206,32 +284,54 @@ label{
     border-radius: 20px;
 }
 
-.label-nombre{grid-area: label-nombre;}
-#nombre{grid-area: nombre;}
-.label-email{grid-area: label-email;}
-#email{grid-area: email;}
-.label-telefono{grid-area: label-telefono;}
-#telefono{grid-area: telefono;}
-.label-mensaje{ grid-area: label-mensaje;}
+.label-nombre {
+    grid-area: label-nombre;
+}
+
+#nombre {
+    grid-area: nombre;
+}
+
+.label-email {
+    grid-area: label-email;
+}
+
+#email {
+    grid-area: email;
+}
+
+.label-telefono {
+    grid-area: label-telefono;
+}
+
+#telefono {
+    grid-area: telefono;
+}
+
+.label-mensaje {
+    grid-area: label-mensaje;
+}
 
 /* TERAPIAS */
 
 
 /* SECCION TERAPIAS */
 
-.article-terapias{
+.article-terapias {
     padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.titulo-terapias-descripcion{
+
+.titulo-terapias-descripcion {
     font-size: 50px;
     color: #ff2e5f;
     /* margin-top: 40px; */
 }
-.parrafo-terapias{
+
+.parrafo-terapias {
     width: 90%;
     text-align: justify;
     margin-bottom: 50px;
@@ -239,14 +339,14 @@ label{
 
 /* SOBRE MI */
 
-.main-sobre-nosotros{
+.main-sobre-nosotros {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.parrafo-sobre-nosotros{
+.parrafo-sobre-nosotros {
     margin-top: 20px;
     width: 90%;
     text-align: justify;
@@ -254,69 +354,79 @@ label{
 
 /*  METODO SALUD NATURAL - SOBRE MI */
 
-.h2-metodo{
+.h2-metodo {
     margin-top: 50px;
     font-family: 'Bebas Neue', cursive;
     color: #ffd452;
     font-size: 30px;
 }
-.h3-metodo{
+
+.h3-metodo {
     margin: 20px auto;
     width: 90%;
     font-size: 15px;
 }
-.metodo-1, .metodo-2, .metodo-3{
+
+.metodo-1,
+.metodo-2,
+.metodo-3 {
     background-color: #18111f;
     border-radius: 20px;
 }
-.metodo-1:hover, .metodo-2:hover, .metodo-3:hover{
+
+.metodo-1:hover,
+.metodo-2:hover,
+.metodo-3:hover {
     background-color: #ffffff0d;
 }
-.img-metodo{
+
+.img-metodo {
     width: 100%;
     border-radius: 20px;
 }
 
-.p-web-metodo{
+.p-web-metodo {
     padding-bottom: 20px;
 }
 
 /* BLOG */
-.section-articulo-1{
+.section-articulo-1 {
     width: 95%;
     margin: 100px auto;
     padding: 20px;
     background-color: #42142a1a;
 }
-.imagen-blog{
+
+.imagen-blog {
     border-radius: 20px;
     width: 100%;
 }
 
-.h2-proximo-torneo-ent, .h2-titulo-post-blog{
+.h2-proximo-torneo-ent,
+.h2-titulo-post-blog {
     margin: 50px;
     font-family: 'Bebas Neue', cursive;
     color: #ff2e5f;
     font-size: 50px;
 }
 
-.parrafo-blog{
+.parrafo-blog {
     text-align: justify;
 }
 
-.h3-pide-cita{
+.h3-pide-cita {
     margin-top: 40px;
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
 }
 
-.boton-reservar{
+.boton-reservar {
     color: white;
     width: 140px;
     border-radius: 20px;
 }
 
-.boton-participar:hover{
+.boton-participar:hover {
     background-color: #ffd452;
     color: white;
 }
@@ -325,19 +435,20 @@ label{
 
 /* vista mobile */
 
-@media screen and (max-width: 567px){
+@media screen and (max-width: 567px) {
 
-    .titulo-index{
+    .titulo-index {
         font-size: 50px;
     }
-    .h2-entrenamientos{
+
+    .h2-entrenamientos {
         width: auto;
         font-size: 50px;
     }
 
 
 
-/*  PALETA DE COLORES
+    /*  PALETA DE COLORES
 color1 { #140d1a };
 color2 { #42142a };
 color3 { #ff2e5f };
