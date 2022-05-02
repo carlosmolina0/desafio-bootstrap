@@ -62,7 +62,7 @@ body{
 
 /* TITULOS TODAS LAS PAGINAS */
 
-.titulo-contacto, .titulo-sobre-nosotros, .titulo-blog, .titulo-reglamento {
+.titulo-contacto, .titulo-sobre-nosotros, .titulo-blog, .titulo-terapias {
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     padding-top: 150px;
@@ -219,19 +219,19 @@ label{
 
 /* SECCION TERAPIAS */
 
-.article-reglamento{
+.article-terapias{
     padding-top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.titulo-reglamento-idioma{
+.titulo-terapias-descripcion{
     font-size: 50px;
     color: #ff2e5f;
     /* margin-top: 40px; */
 }
-.parrafo-reglamento{
+.parrafo-terapias{
     width: 90%;
     text-align: justify;
     margin-bottom: 50px;
