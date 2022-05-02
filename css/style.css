@@ -252,32 +252,32 @@ label{
     text-align: justify;
 }
 
-/*  NOTAS SOBRE MI */
+/*  METODO SALUDE NATURAL - SOBRE MI */
 
-.h2-notas{
+.h2-metodo{
     margin-top: 50px;
     font-family: 'Bebas Neue', cursive;
     color: #ffd452;
     font-size: 30px;
 }
-.h3-notas{
+.h3-metodo{
     margin: 20px auto;
     width: 90%;
     font-size: 15px;
 }
-.nota-1, .nota-2, .nota-3{
+.metodo-1, .metodo-2, .metodo-3{
     background-color: #18111f;
     border-radius: 20px;
 }
-.nota-1:hover, .nota-2:hover, .nota-3:hover{
+.metodo-1:hover, .metodo-2:hover, .metodo-3:hover{
     background-color: #ffffff0d;
 }
-.img-nota{
+.img-metodo{
     width: 100%;
     border-radius: 20px;
 }
 
-.p-web-nota{
+.p-web-metodo{
     padding-bottom: 20px;
 }
 
