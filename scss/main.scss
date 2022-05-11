@@ -1,0 +1,29 @@
+
+
+@import 'config';
+@import 'header';
+@import 'titulos';
+@import 'blog';
+@import 'config';
+@import 'contacto';
+@import 'footer';
+@import 'header';
+@import 'index';
+@import 'sobre-mi';
+@import 'terapias';
+
+
+
+@media screen and (max-width: 567px) {
+
+    .titulo-index {
+        font-size: 50px;
+    }
+
+    .h2-entrenamientos {
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+

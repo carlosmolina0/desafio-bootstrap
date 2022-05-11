@@ -1,0 +1,110 @@
+
+@import 'config';
+
+
+/* INDEX SCSS*/
+
+body{
+    background: $bgcolor;
+}
+
+/* TITULO Y FOTO HOME */
+.main-index {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-index {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 180px;
+    margin-top: 150px;
+    color: #a3e636;
+}
+
+.foto-index {
+    margin: 50px auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    animation: foto-index 15s infinite;
+
+    }
+
+    @keyframes foto-index {
+
+        0%, 30% {
+            background-image: url(../assets/matcha-powder-g9162734ab_1920.jpg);
+            opacity: 1;
+        }
+
+        31%, 34% {
+            opacity: 0.1;
+        }
+
+        35%, 65% {
+            background-image: url(../assets/massage-gf00a03ff0_1920.jpg);
+            opacity: 1;
+        }
+
+        66%, 69% {
+            opacity: 0.1;
+        }
+
+        70%, 100% {
+            background-image: url(../assets/skincare-g3c5b072e6_1920.jpg);
+            opacity: 1;
+        }
+    }
+
+
+    /*  TERAPIAS HOME SCSS */
+.section-terapias {
+    width: 95%;
+    margin: auto;
+}
+
+.h3-dia-horario,
+.h3-donde,
+.h3-que-llevar {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.h2-terapias {
+    grid-area: h2-entrenamientos;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #ffd452;
+}
+
+.iframe-mapa {
+    width: 100%;
+}
+
+.info-dia-horario,
+.info-que-es,
+.iframe-mapa {
+    margin-top: 30px;
+    font-size: 20px;
+    height: 350px;
+    background-image: url('../assets/yoga-g0bd6d2e29_1920.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.li-dia-horario,
+.p-dia-horario,
+.p-que-somos {
+    margin: 0 auto;
+    width: 80%;
+}

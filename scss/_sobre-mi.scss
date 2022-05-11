@@ -1,0 +1,52 @@
+/* SOBRE MI SCSS*/
+
+.main-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.parrafo-sobre-nosotros {
+    margin-top: 20px;
+    width: 90%;
+    text-align: justify;
+}
+
+
+/*  METODO SALUD NATURAL - SOBRE MI SCSS */
+
+.h2-metodo {
+    margin-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffd452;
+    font-size: 30px;
+}
+
+.h3-metodo {
+    margin: 20px auto;
+    width: 90%;
+    font-size: 15px;
+}
+
+.metodo-1,
+.metodo-2,
+.metodo-3 {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.metodo-1:hover,
+.metodo-2:hover,
+.metodo-3:hover {
+    background-color: #a3e636;
+}
+
+.img-metodo {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p-web-metodo {
+    padding-bottom: 20px;
+}
