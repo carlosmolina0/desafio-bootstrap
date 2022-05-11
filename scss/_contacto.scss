@@ -17,63 +17,33 @@
         "mensaje mensaje"
         "none enviar";
     gap: 10px;
+    .label-nombre {grid-area: label-nombre;}
+    #nombre {grid-area: nombre;}
+    .label-email {grid-area: label-email;}
+    #email {grid-area: email;}
+    .label-telefono {grid-area: label-telefono;}
+    #telefono {grid-area: telefono;}
+    .label-mensaje {grid-area: label-mensaje;}
+    label {
+        text-align: left;
+        padding-left: 10px;
+    }
+    #nombre, #email, #telefono, #mensaje {
+        background-color: #ffffff;
+        border-radius: 20px;
+        border: none;
+        height: 40px;
+    }
+    #mensaje {
+        grid-area: mensaje;
+        height: 150px;
+    }
+    #enviar {
+        grid-area: enviar;
+        background-color: $color-terciario;
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+    }    
 }
-
-#nombre,
-#email,
-#telefono,
-#mensaje {
-    background-color: #ffffff;
-    border-radius: 20px;
-    border: none;
-    height: 40px;
-}
-
-#mensaje {
-    grid-area: mensaje;
-    height: 150px;
-}
-
-label {
-    text-align: left;
-    padding-left: 10px;
-}
-
-#enviar {
-    grid-area: enviar;
-    background-color: #ff2e5f;
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-}
-
-.label-nombre {
-    grid-area: label-nombre;
-}
-
-#nombre {
-    grid-area: nombre;
-}
-
-.label-email {
-    grid-area: label-email;
-}
-
-#email {
-    grid-area: email;
-}
-
-.label-telefono {
-    grid-area: label-telefono;
-}
-
-#telefono {
-    grid-area: telefono;
-}
-
-.label-mensaje {
-    grid-area: label-mensaje;
-}
-
-

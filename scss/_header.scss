@@ -14,13 +14,13 @@
 
 /* DROPDOWN */
 .bg-button-dark {
-    background-color: #140d1a;
-    box-shadow: 0px 0px 24px 1px #140d1a;
+    background-color: $color-secundario;
+    box-shadow: 0px 0px 24px 1px $color-secundario;
 }
 
 .bg-button-verde {
-    background-color: #a3e636;
-    box-shadow: 0px 0px 24px 1px #140d1a;
+    background-color: $color-principal;
+    box-shadow: 0px 0px 24px 1px $color-secundario;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -29,51 +29,22 @@
 .perfil-iniciar,
 .perfil-registrarse {
     padding: 12px;
-    color: white;
+    color: $color-texto;
+    &.perfil-registrarse:link, &.pages:link {color: $color-texto;}
+    &.perfil-registrarse:hover, &.pages:visited {color: $color-texto;}
+    &.perfil-registrarse:hover, &.pages:hover {color: $color-principal}
+    &.perfil-registrarse:active, &.pages:active {color: $color-active}
 }
 
-.perfil-registrarse:link,
-.pages:link {
-    color: white;
-}
-
-.perfil-registrarse:hover,
-.pages:visited {
-    color: white;
-}
-
-.perfil-registrarse:hover,
-.pages:hover {
-    color: #a3e636;
-}
-
-.perfil-registrarse:active,
-.pages:active {
-    color: #42142a;
-}
-
-#color-verde:link {
-    color: #a3e636
-}
-
-#color-verde:visited {
-    color: #a3e636
-}
-
-#color-verde:hover {
-    color: #f96036
-}
-
-#color-verde:active {
-    color: #42142a
-}
+#color-verde:link {color: $color-principal}
+#color-verde:visited {color: $color-principal}
+#color-verde:hover {color: $color-hover}
+#color-verde:active {color: $color-active}
 
 .perfil-iniciar {
-    background-color: #ff2e5f;
+    background-color: $color-terciario;
     border-radius: 20px;
-}
-
-.perfil-iniciar:hover {
-    background-color: #ffd452;
-    color: white;
+    &.perfil-iniciar:hover {
+        background-color: $color-hover2;
+        color: $color-texto;}
 }

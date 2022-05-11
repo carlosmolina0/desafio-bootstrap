@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlosmolina0/desafio-bootstrap.git"
+    "url": "git+https://github.com/carlosmolina0/proyecto-salud_natural.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/carlosmolina0/desafio-bootstrap/issues"
+    "url": "https://github.com/carlosmolina0/proyecto-salud_natural/issues"
   },
-  "homepage": "https://github.com/carlosmolina0/desafio-bootstrap#readme",
+  "homepage": "https://github.com/carlosmolina0/proyecto-salud_natural#readme",
   "description": "",
   "dependencies": {
     "node-sass": "^7.0.1",

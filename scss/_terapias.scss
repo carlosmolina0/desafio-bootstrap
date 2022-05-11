@@ -9,20 +9,20 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #140d1a4f;
+    background-color: $color-secundario;
     border-radius: 20px;
+    .titulo-terapias-descripcion {
+        font-size: 50px;
+        color: $color-terciario;
+    }
+    
+    .parrafo-terapias {
+        width: 90%;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
 }
 
-.titulo-terapias-descripcion {
-    font-size: 50px;
-    color: #ff2e5f;
-    /* margin-top: 40px; */
-}
 
-.parrafo-terapias {
-    width: 90%;
-    text-align: justify;
-    margin-bottom: 50px;
-}
 
 

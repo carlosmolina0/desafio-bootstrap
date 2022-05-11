@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap');
+
+// ESTILOS GENERAL
 *{
     margin: 0;
     padding: 0;
     font-family: 'Barlow', sans-serif;
+    color: white;
     text-decoration: none;
     list-style: none;
     text-align: justify center;   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap');
-
-
+// PALETA DE COLORES
 $bgcolor: linear-gradient(180deg, rgba(74,204,241,1) 0%, rgba(108,212,242,1) 100%);
 $color-principal: #a3e636; 
 $color-secundario: #140d1a;
+$color-terciario: #ff2e5f;
+$color-texto: white;
+$color-active: #42142a;
+$color-hover: #f96036;
+$color-hover2: #ffd452;
 
+
+// FONT FAMILY
+$font1 : 'Barlow', sans-serif;
+$font2 : 'Bebas Neue', cursive;

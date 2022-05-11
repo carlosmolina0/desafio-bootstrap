@@ -3,46 +3,41 @@
     width: 95%;
     margin: 100px auto;
     padding: 20px;
-    background-color: #42142a1a;
+    background-color: $color-secundario;
     border-radius: 20px;
+    .imagen-blog {
+        border-radius: 20px;
+        width: 100%;
+    }
+    
+    .h2-titulo-post-blog {
+        margin: 50px;
+        font-family: $font2;
+        color: $color-terciario;
+        font-size: 50px;
+    }
+    
+    .parrafo-blog {
+        text-align: justify;
+    }
 }
 
-.imagen-blog {
-    border-radius: 20px;
-    width: 100%;
-}
-
-.h2-titulo-post-blog {
-    margin: 50px;
-    font-family: 'Bebas Neue', cursive;
-    color: #ff2e5f;
-    font-size: 50px;
-}
-
-.parrafo-blog {
-    text-align: justify;
-}
 
 .h3-pide-cita {
     margin-top: 40px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font2;
     font-size: 50px;
-    color: #a3e636;
-}
-
-
-.h3-pide-cita:hover{
-    transform: scale(1.3);
+    color: $color-principal;
+    &.h3-pide-cita:hover{transform: scale(1.3);}
 }
 
 .boton-reservar {
-    color: white;
+    color: $color-texto;
     width: 140px;
     border-radius: 20px;
-}
-
-.boton-reservar:hover {
-    background-color: #a3e636;
-    color: white;
+    &.boton-reservar:hover {
+        background-color: $color-principal;
+        color: $color-texto;
+    }
 }
 
