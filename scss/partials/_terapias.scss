@@ -17,8 +17,10 @@
     }
     
     .parrafo-terapias {
-        width: 90%;
-        text-align: justify;
+        width: 90%;        
+        text-align: map-get($texto-general, fuente);
+        color: map-get($texto-general, color);
+        font-size: map-get($texto-general, fsize);
         margin-bottom: 50px;
     }
 }

@@ -307,5 +307,7 @@ body {
     color: #ff2e5f; }
   .article-terapias .parrafo-terapias {
     width: 90%;
-    text-align: justify;
+    text-align: "Barlow", sans-serif;
+    color: white;
+    font-size: 24px;
     margin-bottom: 50px; }
