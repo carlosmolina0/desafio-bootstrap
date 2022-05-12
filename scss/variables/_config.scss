@@ -2,8 +2,7 @@
 
 // ESTILOS GENERAL
 *{
-    margin: 0;
-    padding: 0;
+    @include reset-pm();
     font-family: 'Barlow', sans-serif;
     color: white;
     text-decoration: none;

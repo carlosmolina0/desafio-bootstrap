@@ -1,9 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Bebas+Neue&display=swap");
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: 'Barlow', sans-serif;
   color: white;
   text-decoration: none;
@@ -126,15 +125,6 @@
     background-color: #a3e636;
     color: white; }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Barlow', sans-serif;
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  text-align: justify center; }
-
 /* CONTACTO SCSS */
 .formulario-contacto-fieldset {
   width: 60%;
@@ -193,77 +183,6 @@ footer {
     color: white; }
   footer .img-footer {
     width: 250px; }
-
-.encabezado {
-  padding-left: 0px; }
-
-.nav-css {
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  background-color: #140d1a;
-  box-shadow: 0px 0px 24px 1px #140d1a;
-  z-index: 1000; }
-
-/* DROPDOWN */
-.bg-button-dark {
-  background-color: #140d1a;
-  box-shadow: 0px 0px 24px 1px #140d1a; }
-
-.bg-button-verde {
-  background-color: #a3e636;
-  box-shadow: 0px 0px 24px 1px #140d1a;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
-
-.pages,
-.perfil-iniciar,
-.perfil-registrarse {
-  padding: 12px;
-  color: white; }
-  .pages.perfil-registrarse:link, .pages.pages:link,
-  .perfil-iniciar.perfil-registrarse:link,
-  .perfil-iniciar.pages:link,
-  .perfil-registrarse.perfil-registrarse:link,
-  .perfil-registrarse.pages:link {
-    color: white; }
-  .pages.perfil-registrarse:hover, .pages.pages:visited,
-  .perfil-iniciar.perfil-registrarse:hover,
-  .perfil-iniciar.pages:visited,
-  .perfil-registrarse.perfil-registrarse:hover,
-  .perfil-registrarse.pages:visited {
-    color: white; }
-  .pages.perfil-registrarse:hover, .pages.pages:hover,
-  .perfil-iniciar.perfil-registrarse:hover,
-  .perfil-iniciar.pages:hover,
-  .perfil-registrarse.perfil-registrarse:hover,
-  .perfil-registrarse.pages:hover {
-    color: #a3e636; }
-  .pages.perfil-registrarse:active, .pages.pages:active,
-  .perfil-iniciar.perfil-registrarse:active,
-  .perfil-iniciar.pages:active,
-  .perfil-registrarse.perfil-registrarse:active,
-  .perfil-registrarse.pages:active {
-    color: #42142a; }
-
-#color-verde:link {
-  color: #a3e636; }
-
-#color-verde:visited {
-  color: #a3e636; }
-
-#color-verde:hover {
-  color: #f96036; }
-
-#color-verde:active {
-  color: #42142a; }
-
-.perfil-iniciar {
-  background-color: #ff2e5f;
-  border-radius: 20px; }
-  .perfil-iniciar.perfil-iniciar:hover {
-    background-color: #ffd452;
-    color: white; }
 
 /* INDEX SCSS*/
 body {

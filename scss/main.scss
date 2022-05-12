@@ -1,12 +1,11 @@
 
-@import 'config';
-@import 'header';
-@import 'titulos';
-@import 'blog';
-@import 'config';
-@import 'contacto';
-@import 'footer';
-@import 'header';
-@import 'index';
-@import 'sobre-mi';
-@import 'terapias';
+@import './mixin';
+@import './variables/config';
+@import './partials/header';
+@import './partials/titulos';
+@import './partials/blog';
+@import './partials/contacto';
+@import './partials/footer';
+@import './partials/index';
+@import './partials/sobre-mi';
+@import './partials/terapias';
