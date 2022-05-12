@@ -32,9 +32,7 @@
 }
 
 .boton-reservar {
-    color: $color-texto;
-    width: 140px;
-    border-radius: 20px;
+    @include boton-color-terciario;
     &.boton-reservar:hover {
         background-color: $color-principal;
         color: $color-texto;

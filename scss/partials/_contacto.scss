@@ -39,11 +39,6 @@
         height: 150px;
     }
     #enviar {
-        grid-area: enviar;
-        background-color: $color-terciario;
-        width: 150px;
-        height: 40px;
-        border: none;
-        border-radius: 20px;
+        @include boton-color-terciario;
     }    
 }
