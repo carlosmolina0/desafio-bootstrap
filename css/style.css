@@ -171,6 +171,8 @@
 footer {
   width: 100%;
   margin-top: 100px; }
+  footer .footer-lista {
+    list-style: none; }
   footer .footer-fondo {
     background-color: #140d1a; }
   footer .h4-footer {
