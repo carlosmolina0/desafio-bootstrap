@@ -3,7 +3,7 @@
 /* SECCION TERAPIAS */
 
 .article-terapias {
-    padding-top: 40px;
+    padding: 40px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -12,16 +12,31 @@
     background-color: $color-secundario;
     border-radius: 20px;
     .titulo-terapias-descripcion {
-        font-size: 50px;
+        font-size: 36px;
+        font-family: $font1;
         color: $color-terciario;
+        font-weight: bolder;
+        margin-bottom: 20px;
     }
-    
     .parrafo-terapias {
         width: 90%;        
         text-align: map-get($texto-general, fuente);
         color: map-get($texto-general, color);
         font-size: map-get($texto-general, fsize);
-        margin-bottom: 50px;
+        margin-bottom: 2    0px;
+    }
+    .parrafo-terapias-h3{
+        width: 90%;
+        font-family: $font1;
+        font-size: 20pt;
+        font-weight: bolder;
+        color: $color-terciario;
+    }
+    .parrafo-terapias-lista{
+        list-style: disclosure-closed;
+        width: 90%;
+        padding-left: 15%;
+        font-size: 14pt;
     }
 }
 

@@ -6,7 +6,6 @@
   font-family: 'Barlow', sans-serif;
   color: white;
   text-decoration: none;
-  list-style: none;
   text-align: justify center; }
 
 .encabezado {
@@ -298,7 +297,7 @@ body {
 /* TERAPIAS SCSS */
 /* SECCION TERAPIAS */
 .article-terapias {
-  padding-top: 40px;
+  padding: 40px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -307,11 +306,25 @@ body {
   background-color: #140d1a;
   border-radius: 20px; }
   .article-terapias .titulo-terapias-descripcion {
-    font-size: 50px;
-    color: #ff2e5f; }
+    font-size: 36px;
+    font-family: "Barlow", sans-serif;
+    color: #ff2e5f;
+    font-weight: bolder;
+    margin-bottom: 20px; }
   .article-terapias .parrafo-terapias {
     width: 90%;
     text-align: "Barlow", sans-serif;
     color: white;
-    font-size: 24px;
-    margin-bottom: 50px; }
+    font-size: 20px;
+    margin-bottom: 2    0px; }
+  .article-terapias .parrafo-terapias-h3 {
+    width: 90%;
+    font-family: "Barlow", sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: #ff2e5f; }
+  .article-terapias .parrafo-terapias-lista {
+    list-style: disclosure-closed;
+    width: 90%;
+    padding-left: 15%;
+    font-size: 14pt; }
