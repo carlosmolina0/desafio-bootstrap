@@ -266,8 +266,12 @@ body {
   width: 100%; }
   .main-sobre-nosotros .parrafo-sobre-nosotros {
     margin-top: 20px;
-    width: 90%;
-    text-align: justify; }
+    width: 85%;
+    text-align: justify;
+    font-size: 20pt; }
+    @media screen and (max-width: 542px) {
+      .main-sobre-nosotros .parrafo-sobre-nosotros {
+        font-size: 14pt; } }
 
 /*  METODO SALUD NATURAL - SOBRE MI SCSS */
 .h2-metodo {
@@ -282,7 +286,7 @@ body {
   .metodo-1 .h3-metodo, .metodo-2 .h3-metodo, .metodo-3 .h3-metodo {
     margin: 20px auto;
     width: 90%;
-    font-size: 15px; }
+    font-size: 18px; }
   .metodo-1 .img-metodo, .metodo-2 .img-metodo, .metodo-3 .img-metodo {
     width: 100%;
     border-radius: 20px; }
